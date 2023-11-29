@@ -1,0 +1,124 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans serif;
+}
+body{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("img/bg-hero.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+}
+.box{
+    position: relative;
+	z-index: 1;
+	background: rgba(0,0,0,0.5);
+	max-width: 350px;
+	margin:60px auto 0;
+	padding: 45px;
+	text-align: center;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+    color:rgba(209, 101, 35, 0.864) ;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color:rgba(209, 101, 35, 0.864) ;
+    font-size: 40px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 0 0 0 12px;
+    background: rgba(255,255,255,0.1);
+}
+i{
+    position: relative;
+    top: -31px;
+    left: 0px;
+    padding-left: 250px;
+    color: rgba(209, 101, 35, 0.864);
+}
+::-webkit-input-placeholder{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.button-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.login-btn, .signup-btn {
+    width: 48%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+    outline: none;
+    transition: .3s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-btn {
+    background-color: rgba(209, 101, 35, 0.864);
+    color: #fff;
+}
+
+.signup-btn {
+    background-color: rgba(209, 101, 35, 0.864);
+    color: #fff;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+}
+label a{
+    color: #fff;
+    text-decoration: none;
+}
